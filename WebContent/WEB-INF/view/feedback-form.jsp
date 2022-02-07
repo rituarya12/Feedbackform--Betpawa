@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title>Customer Registration Form</title>
+	<title>Feedback Form</title>
 	
 	<style>
 		.error {color:red}
