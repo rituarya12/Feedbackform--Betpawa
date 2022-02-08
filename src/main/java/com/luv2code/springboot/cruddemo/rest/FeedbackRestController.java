@@ -21,10 +21,7 @@ public class FeedbackRestController {
 	@Autowired
 	private FeedbackService feedbackService;
 	
-//	@Autowired
-//	public FeedbackRestController(FeedbackService feedbackService) {
-//		this.feedbackService = feedbackService;
-//	}
+
 
 	@GetMapping("/feedback")
 	public List<Feedback> findAll() {
@@ -74,12 +71,12 @@ public class FeedbackRestController {
 		// throw exception if null
 		
 		if (tempFeedback == null) {
-			throw new RuntimeException("Employee id not found - " + feedbackId);
+			throw new RuntimeException("Feedback id not found - " + feedbackId);
 		}
 		
 		feedbackService.deleteById(feedbackId);
 		
-		return "Deleted employee id - " + feedbackId;
+		return "Deleted Feedback id - " + feedbackId;
 	}
 	
 }
