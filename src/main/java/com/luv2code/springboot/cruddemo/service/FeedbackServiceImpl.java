@@ -3,12 +3,14 @@ package com.luv2code.springboot.cruddemo.service;
 import com.luv2code.springboot.cruddemo.dao.FeedbackDAO;
 import com.luv2code.springboot.cruddemo.entity.Feedback;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-
+@Service
 public class FeedbackServiceImpl implements FeedbackService {
-    private FeedbackDAO feedbackDAO;
+
+   private FeedbackDAO feedbackDAO;
 
     @Autowired
     public FeedbackServiceImpl(FeedbackDAO feedbackDAO) {

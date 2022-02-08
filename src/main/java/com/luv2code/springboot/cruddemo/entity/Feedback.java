@@ -22,7 +22,7 @@ public class Feedback {
     @Column(name="rate")
     @Max(value =10, message="max value can be less than or equal to 10")
     @Min(value=0, message="min value can be greater than or equal to 0")
-    private String rate;
+    private int rate;
 
     @Column(name="date")
     private Date date;
@@ -35,7 +35,7 @@ public class Feedback {
 
     }
 
-    public Feedback(String name, String description, String rate, Date date) {
+    public Feedback(String name, String description, int rate, Date date) {
         this.name = name;
         this.description = description;
         this.rate = rate;
@@ -68,11 +68,11 @@ public class Feedback {
         this.description = description;
     }
 
-    public String getRate() {
+    public int getRate() {
         return rate;
     }
 
-    public void setRate(String rate) {
+    public void setRate(int rate) {
         this.rate = rate;
     }
 

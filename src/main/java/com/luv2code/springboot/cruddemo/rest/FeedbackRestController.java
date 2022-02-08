@@ -18,12 +18,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class FeedbackRestController {
 
+	@Autowired
 	private FeedbackService feedbackService;
 	
-	@Autowired
-	public FeedbackRestController(FeedbackService feedbackService) {
-		this.feedbackService = feedbackService;
-	}
+//	@Autowired
+//	public FeedbackRestController(FeedbackService feedbackService) {
+//		this.feedbackService = feedbackService;
+//	}
 
 	@GetMapping("/feedback")
 	public List<Feedback> findAll() {
