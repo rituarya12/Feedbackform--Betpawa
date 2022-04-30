@@ -1,8 +1,4 @@
 com\luv2code\springboot\atmApp\SwaggerConfig.class
-com\luv2code\springboot\atmApp\entity\ATM.class
-com\luv2code\springboot\cruddemo\AtmApplication.class
-com\luv2code\springboot\atmApp\entity\AccountDetailAndNotes.class
-com\luv2code\springboot\atmApp\rest\atmRestController.class
-com\luv2code\springboot\atmApp\service\atmServiceImpl.class
-com\luv2code\springboot\atmApp\dao\atmDAO.class
-com\luv2code\springboot\atmApp\service\atmService.class
+com\luv2code\springboot\atmApp\Finder.class
+com\luv2code\springboot\atmApp\Main.class
+com\luv2code\springboot\atmApp\S4dx.class

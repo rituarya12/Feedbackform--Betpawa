@@ -1,8 +1,4 @@
-E:\PersonalProjects\AtmApplication\src\main\java\com\luv2code\springboot\cruddemo\service\atmServiceImpl.java
-E:\PersonalProjects\AtmApplication\src\main\java\com\luv2code\springboot\cruddemo\AtmApplication.java
-E:\PersonalProjects\AtmApplication\src\main\java\com\luv2code\springboot\cruddemo\entity\AccountDetailAndNotes.java
-E:\PersonalProjects\AtmApplication\src\main\java\com\luv2code\springboot\cruddemo\SwaggerConfig.java
-E:\PersonalProjects\AtmApplication\src\main\java\com\luv2code\springboot\cruddemo\rest\atmRestController.java
-E:\PersonalProjects\AtmApplication\src\main\java\com\luv2code\springboot\cruddemo\dao\atmDAO.java
-E:\PersonalProjects\AtmApplication\src\main\java\com\luv2code\springboot\cruddemo\entity\ATM.java
-E:\PersonalProjects\AtmApplication\src\main\java\com\luv2code\springboot\cruddemo\service\atmService.java
+C:\Projects\s4dx\src\main\java\com\luv2code\springboot\atmApp\SwaggerConfig.java
+C:\Projects\s4dx\src\main\java\com\luv2code\springboot\atmApp\Finder.java
+C:\Projects\s4dx\src\main\java\com\luv2code\springboot\atmApp\S4dx.java
+C:\Projects\s4dx\src\main\java\com\luv2code\springboot\atmApp\Main.java
