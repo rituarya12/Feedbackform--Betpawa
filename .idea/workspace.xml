@@ -75,7 +75,7 @@
       <recent name="com.luv2code.springboot.atmApp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FinderTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luv2code.springboot.s4dx.Main" />
       <module name="s4dx" />
@@ -151,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FinderTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FinderTest" />
         <item itemvalue="JUnit.FinderTest.find" />
         <item itemvalue="JUnit.FinderTest.getSampleValues" />
         <item itemvalue="Application.S4dx" />
@@ -169,27 +169,6 @@
       <updated>1649417672737</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/luv2code/springboot/s4dx/Main.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/luv2code/springboot/s4dx/Finder.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/luv2code/springboot/s4dx/FinderTest.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/s4dx$FinderTest.ic" NAME="FinderTest Coverage Results" MODIFIED="1651314342284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
